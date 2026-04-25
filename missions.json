@@ -1,6 +1,7 @@
 
 [
   {
+    //////////////////////ACTIVE
     "id": "jwst",
     "name": "James Webb Space Telescope",
     "agency": "NASA / ESA / CSA",
@@ -33,6 +34,23 @@
     "image": "./images/hubble.png",
     "trackerLinks": [
       { "label": "Space Telescope Live", "url": "https://spacetelescopelive.org/hubble" }
+    ]
+  },
+  {
+    "id": "gaia",
+    "name": "Gaia",
+    "agency": "ESA",
+    "status": "Active",
+    "category": "Stellar / Astrometry",
+    "launchDate": "2013-12-19",
+    "missionStart": "2014-07-25",
+    "missionEnd": null,
+    "location": "Sun–Earth L2",
+    "description": "Precision astrometry mission mapping over a billion stars in the Milky Way.",
+    "epwRelevance": "High — stellar parameters, companion detection, and transit validation",
+    "image": "./images/gaia.png",
+    "trackerLinks": [
+      { "label": "ESA Gaia Page", "url": "https://www.cosmos.esa.int/gaia" }
     ]
   },
   {
@@ -85,6 +103,7 @@
     ]
   },
   {
+    //////////////////////UPCOMING
     "id": "roman",
     "name": "Nancy Grace Roman Space Telescope",
     "agency": "NASA",
@@ -136,6 +155,7 @@
     ]
   },
   {
+    //////////////////////RETIRED
     "id": "kepler",
     "name": "Kepler Space Telescope",
     "agency": "NASA",
