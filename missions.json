@@ -1,1 +1,168 @@
 
+[
+  {
+    "id": "jwst",
+    "name": "James Webb Space Telescope",
+    "agency": "NASA / ESA / CSA",
+    "status": "Active",
+    "category": "Characterization",
+    "launchDate": "2021-12-25",
+    "missionStart": "2022-07-12",
+    "missionEnd": null,
+    "location": "Sun–Earth L2",
+    "description": "Infrared space telescope focused on exoplanet atmospheres, galaxy formation, and deep universe observations.",
+    "epwRelevance": "High — atmospheric characterization of transiting exoplanets",
+    "image": "assets/jwst.jpg",
+    "trackerLinks": [
+      { "label": "Space Telescope Live", "url": "https://spacetelescopelive.org/webb" },
+      { "label": "JWST Tracker (TheSkyLive)", "url": "https://theskylive.com/jwst-tracker" }
+    ]
+  },
+  {
+    "id": "hubble",
+    "name": "Hubble Space Telescope",
+    "agency": "NASA / ESA",
+    "status": "Active",
+    "category": "Characterization",
+    "launchDate": "1990-04-24",
+    "missionStart": "1990-05-20",
+    "missionEnd": null,
+    "location": "Low Earth Orbit",
+    "description": "Optical and ultraviolet space telescope providing long-term observations of exoplanets and galaxies.",
+    "epwRelevance": "Medium — atmospheric and stellar observations",
+    "image": "assets/hubble.jpg",
+    "trackerLinks": [
+      { "label": "Space Telescope Live", "url": "https://spacetelescopelive.org/hubble" }
+    ]
+  },
+  {
+    "id": "tess",
+    "name": "Transiting Exoplanet Survey Satellite (TESS)",
+    "agency": "NASA / MIT",
+    "status": "Active",
+    "category": "Discovery",
+    "launchDate": "2018-04-18",
+    "missionStart": "2018-07-25",
+    "missionEnd": null,
+    "location": "Highly elliptical Earth orbit",
+    "description": "All-sky survey mission discovering transiting exoplanets.",
+    "epwRelevance": "Very High — primary source of EPW targets",
+    "image": "assets/tess.jpg",
+    "trackerLinks": [
+      { "label": "TESS Observations", "url": "https://tess.mit.edu/observations/" }
+    ]
+  },
+  {
+    "id": "cheops",
+    "name": "CHEOPS",
+    "agency": "ESA",
+    "status": "Active",
+    "category": "Follow-up",
+    "launchDate": "2019-12-18",
+    "missionStart": "2020-04-01",
+    "missionEnd": null,
+    "location": "Sun-synchronous orbit",
+    "description": "High-precision photometry for known exoplanets.",
+    "epwRelevance": "High — precise transit follow-up",
+    "image": "assets/cheops.jpg",
+    "trackerLinks": []
+  },
+  {
+    "id": "pandora",
+    "name": "Pandora",
+    "agency": "NASA",
+    "status": "Active",
+    "category": "Characterization",
+    "launchDate": "2026-01-11",
+    "missionStart": "2026-02-01",
+    "missionEnd": null,
+    "location": "Low Earth Orbit",
+    "description": "Studies exoplanet atmospheres while disentangling stellar variability.",
+    "epwRelevance": "High — improves transit signal accuracy",
+    "image": "assets/pandora.jpg",
+    "trackerLinks": [
+      { "label": "NASA Mission Page", "url": "https://science.nasa.gov/mission/pandora/" }
+    ]
+  },
+  {
+    "id": "roman",
+    "name": "Nancy Grace Roman Space Telescope",
+    "agency": "NASA",
+    "status": "Upcoming",
+    "category": "Discovery",
+    "launchDate": "2027-01-01",
+    "missionStart": null,
+    "missionEnd": null,
+    "location": "Sun–Earth L2",
+    "description": "Wide-field infrared telescope for microlensing and direct imaging of exoplanets.",
+    "epwRelevance": "High — future large-scale discovery mission",
+    "image": "assets/roman.jpg",
+    "trackerLinks": [
+      { "label": "NASA Roman Page", "url": "https://roman.gsfc.nasa.gov/" }
+    ]
+  },
+  {
+    "id": "plato",
+    "name": "PLATO",
+    "agency": "ESA",
+    "status": "Upcoming",
+    "category": "Discovery",
+    "launchDate": "2026-01-01",
+    "missionStart": null,
+    "missionEnd": null,
+    "location": "Sun–Earth L2",
+    "description": "Search for Earth-like exoplanets and characterize host stars.",
+    "epwRelevance": "High — long-period exoplanets",
+    "image": "assets/plato.jpg",
+    "trackerLinks": [
+      { "label": "ESA PLATO Page", "url": "https://www.esa.int/Science_Exploration/Space_Science/PLATO" }
+    ]
+  },
+  {
+    "id": "ariel",
+    "name": "ARIEL",
+    "agency": "ESA",
+    "status": "Upcoming",
+    "category": "Characterization",
+    "launchDate": "2029-01-01",
+    "missionStart": null,
+    "missionEnd": null,
+    "location": "Sun–Earth L2",
+    "description": "Dedicated mission to study exoplanet atmospheres.",
+    "epwRelevance": "Very High — atmospheric survey mission",
+    "image": "assets/ariel.jpg",
+    "trackerLinks": [
+      { "label": "ESA ARIEL Page", "url": "https://www.esa.int/Science_Exploration/Space_Science/Ariel" }
+    ]
+  },
+  {
+    "id": "kepler",
+    "name": "Kepler Space Telescope",
+    "agency": "NASA",
+    "status": "Retired",
+    "category": "Discovery",
+    "launchDate": "2009-03-07",
+    "missionStart": "2009-05-12",
+    "missionEnd": "2018-10-30",
+    "location": "Heliocentric orbit",
+    "description": "Revolutionized exoplanet discovery with thousands of detections.",
+    "epwRelevance": "Very High — foundational exoplanet catalog",
+    "image": "assets/kepler.jpg",
+    "trackerLinks": []
+  },
+  {
+    "id": "spitzer",
+    "name": "Spitzer Space Telescope",
+    "agency": "NASA",
+    "status": "Retired",
+    "category": "Characterization",
+    "launchDate": "2003-08-25",
+    "missionStart": "2003-12-01",
+    "missionEnd": "2020-01-30",
+    "location": "Heliocentric orbit",
+    "description": "Infrared telescope used for early exoplanet atmosphere studies.",
+    "epwRelevance": "High — legacy atmospheric data",
+    "image": "assets/spitzer.jpg",
+    "trackerLinks": []
+  }
+]
