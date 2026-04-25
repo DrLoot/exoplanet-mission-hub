@@ -12,7 +12,7 @@
     "location": "Sun–Earth L2",
     "description": "Infrared space telescope focused on exoplanet atmospheres, galaxy formation, and deep universe observations.",
     "epwRelevance": "High — atmospheric characterization of transiting exoplanets",
-    "image": "images/jwst.jpg",
+    "image": "images/jwst.png",
     "trackerLinks": [
       { "label": "Space Telescope Live", "url": "https://spacetelescopelive.org/webb" },
       { "label": "JWST Tracker (TheSkyLive)", "url": "https://theskylive.com/jwst-tracker" }
@@ -30,7 +30,7 @@
     "location": "Low Earth Orbit",
     "description": "Optical and ultraviolet space telescope providing long-term observations of exoplanets and galaxies.",
     "epwRelevance": "Medium — atmospheric and stellar observations",
-    "image": "images/hubble.jpg",
+    "image": "images/hubble.png",
     "trackerLinks": [
       { "label": "Space Telescope Live", "url": "https://spacetelescopelive.org/hubble" }
     ]
@@ -64,7 +64,7 @@
     "location": "Sun-synchronous orbit",
     "description": "High-precision photometry for known exoplanets.",
     "epwRelevance": "High — precise transit follow-up",
-    "image": "images/cheops.jpg",
+    "image": "images/cheops.png",
     "trackerLinks": []
   },
   {
@@ -79,7 +79,7 @@
     "location": "Low Earth Orbit",
     "description": "Studies exoplanet atmospheres while disentangling stellar variability.",
     "epwRelevance": "High — improves transit signal accuracy",
-    "image": "images/pandora.jpg",
+    "image": "images/pandora.png",
     "trackerLinks": [
       { "label": "NASA Mission Page", "url": "https://science.nasa.gov/mission/pandora/" }
     ]
@@ -96,7 +96,7 @@
     "location": "Sun–Earth L2",
     "description": "Wide-field infrared telescope for microlensing and direct imaging of exoplanets.",
     "epwRelevance": "High — future large-scale discovery mission",
-    "image": "images/roman.jpg",
+    "image": "images/roman.png",
     "trackerLinks": [
       { "label": "NASA Roman Page", "url": "https://roman.gsfc.nasa.gov/" }
     ]
@@ -113,7 +113,7 @@
     "location": "Sun–Earth L2",
     "description": "Search for Earth-like exoplanets and characterize host stars.",
     "epwRelevance": "High — long-period exoplanets",
-    "image": "images/plato.jpg",
+    "image": "images/plato.png",
     "trackerLinks": [
       { "label": "ESA PLATO Page", "url": "https://www.esa.int/Science_Exploration/Space_Science/PLATO" }
     ]
@@ -130,7 +130,7 @@
     "location": "Sun–Earth L2",
     "description": "Dedicated mission to study exoplanet atmospheres.",
     "epwRelevance": "Very High — atmospheric survey mission",
-    "image": "images/ariel.jpg",
+    "image": "images/ariel.png",
     "trackerLinks": [
       { "label": "ESA ARIEL Page", "url": "https://www.esa.int/Science_Exploration/Space_Science/Ariel" }
     ]
@@ -147,7 +147,7 @@
     "location": "Heliocentric orbit",
     "description": "Revolutionized exoplanet discovery with thousands of detections.",
     "epwRelevance": "Very High — foundational exoplanet catalog",
-    "image": "images/kepler.jpg",
+    "image": "images/kepler.png",
     "trackerLinks": []
   },
   {
@@ -162,7 +162,7 @@
     "location": "Heliocentric orbit",
     "description": "Infrared telescope used for early exoplanet atmosphere studies.",
     "epwRelevance": "High — legacy atmospheric data",
-    "image": "images/spitzer.jpg",
+    "image": "images/spitzer.png",
     "trackerLinks": []
   }
 ]
