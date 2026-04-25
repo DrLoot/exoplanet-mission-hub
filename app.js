@@ -103,7 +103,7 @@ function createMissionCard(mission) {
         class="mission-image" 
         src="${mission.image}" 
         alt="${mission.name}"
-        onerror="this.src='assets/placeholder.jpg'"
+        onerror="this.src='images/placeholder.jpg'"
       />
 
       <div class="mission-content">
