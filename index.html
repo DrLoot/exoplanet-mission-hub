@@ -1,1 +1,47 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exoplanet Mission Control</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 🛰️ HEADER -->
+  <header class="header">
+    <h1>🛰️ Exoplanet Mission Control</h1>
+    <p class="subtitle">Tracking the telescopes exploring distant worlds</p>
+  </header>
+
+  <!-- 📊 STATS BAR -->
+  <section id="statsBar" class="stats-bar"></section>
+
+  <!-- 🔎 SEARCH -->
+  <section class="controls">
+    <input 
+      type="text" 
+      id="searchInput" 
+      placeholder="Search missions..."
+    />
+  </section>
+
+  <!-- 🧭 TABS -->
+  <section class="tabs">
+    <button class="tab active" data-status="Active">Active</button>
+    <button class="tab" data-status="Upcoming">Upcoming</button>
+    <button class="tab" data-status="Retired">Retired</button>
+  </section>
+
+  <!-- 🛰️ MISSION GRID -->
+  <main id="missionGrid" class="mission-grid">
+    <!-- Cards will be injected by app.js -->
+  </main>
+
+  <!-- ⚙️ SCRIPT -->
+  <script src="app.js"></script>
+
+</body>
+</html>
