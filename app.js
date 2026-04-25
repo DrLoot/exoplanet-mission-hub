@@ -103,7 +103,7 @@ function createMissionCard(mission) {
         class="mission-image" 
         src="${mission.image}" 
         alt="${mission.name}"
-        onerror="this.src='images/placeholder.jpg'"
+        onerror="console.log('FAILED IMAGE:', this.src); this.style.background='red';"
       />
 
       <div class="mission-content">
