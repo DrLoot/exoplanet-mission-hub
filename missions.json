@@ -86,6 +86,23 @@
     ]
   },
   {
+    "id": "spherex",
+    "name": "SPHEREx",
+    "agency": "NASA",
+    "status": "Active",
+    "category": "Survey",
+    "launchDate": "2025-03-11",
+    "missionStart": "2025-05-01",
+    "missionEnd": null,
+    "location": "Low Earth Orbit",
+    "description": "All-sky near-infrared spectral survey mission mapping hundreds of millions of galaxies and stars.",
+    "epwRelevance": "Medium — useful stellar and infrared survey context for exoplanet host environments",
+    "image": "./images/spherex.png",
+    "trackerLinks": [
+      { "label": "NASA SPHEREx Page", "url": "https://science.nasa.gov/mission/spherex/" }
+    ]
+  },
+  {
     "id": "lcogt",
     "name": "Las Cumbres Observatory Global Telescope Network",
     "agency": "LCO",
@@ -203,24 +220,7 @@
     "trackerLinks": [
       { "label": "ESA ARIEL Page", "url": "https://www.esa.int/Science_Exploration/Space_Science/Ariel" }
     ]
-  },
-  {
-    "id": "spherex",
-    "name": "SPHEREx",
-    "agency": "NASA",
-    "status": "Upcoming",
-    "category": "Survey",
-    "launchDate": null,
-    "missionStart": null,
-    "missionEnd": null,
-    "location": "Low Earth Orbit",
-    "description": "All-sky near-infrared spectral survey mission mapping hundreds of millions of galaxies and stars.",
-    "epwRelevance": "Medium — useful stellar and infrared survey context for exoplanet host environments",
-    "image": "./images/spherex.png",
-    "trackerLinks": [
-      { "label": "NASA SPHEREx Page", "url": "https://science.nasa.gov/mission/spherex/" }
-    ]
-  },
+  },  
   {
     "id": "elt",
     "name": "Extremely Large Telescope (ELT)",
