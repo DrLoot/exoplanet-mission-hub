@@ -1,6 +1,5 @@
 [
-  {
-    ///////////////////////////////ACTIVE
+  {    
     "id": "jwst",
     "name": "James Webb Space Telescope",
     "agency": "NASA / ESA / CSA",
@@ -155,7 +154,6 @@
     ]
   },
   {
-    ///////////////////////////////UPCOMING
     "id": "roman",
     "name": "Nancy Grace Roman Space Telescope",
     "agency": "NASA",
@@ -241,7 +239,6 @@
     ]
   },
   {
-    ///////////////////////////////RETIRED
     "id": "gaia",
     "name": "Gaia",
     "agency": "ESA",
