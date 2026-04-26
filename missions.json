@@ -1,7 +1,7 @@
 [
   {    
     "id": "jwst",
-    "name": "James Webb Space Telescope",
+    "name": "James Webb Space Telescope (JWST)",
     "agency": "NASA / ESA / CSA",
     "status": "Active",
     "category": "Characterization",
@@ -19,7 +19,7 @@
   },
   {
     "id": "hubble",
-    "name": "Hubble Space Telescope",
+    "name": "Hubble Space Telescope (HST)",
     "agency": "NASA / ESA",
     "status": "Active",
     "category": "Characterization",
@@ -53,7 +53,7 @@
   },
   {
     "id": "cheops",
-    "name": "CHEOPS",
+    "name": "Characterizing Exoplanet Satellite (CHEOPS)",
     "agency": "ESA",
     "status": "Active",
     "category": "Follow-up",
@@ -87,7 +87,7 @@
   },
   {
     "id": "spherex",
-    "name": "SPHEREx - Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer",
+    "name": "Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer (SPHEREx)",
     "agency": "NASA",
     "status": "Active",
     "category": "Survey",
@@ -104,7 +104,7 @@
   },
   {
     "id": "lcogt",
-    "name": "Las Cumbres Observatory Global Telescope Network",
+    "name": "Las Cumbres Observatory Global Telescope Network (LCO)",
     "agency": "LCO",
     "status": "Active",
     "category": "Ground Follow-up",
@@ -121,7 +121,7 @@
   },
   {
     "id": "speculoos",
-    "name": "SPECULOOS",
+    "name": "Search For Habitable Planets Eclipsing Ultra-Cool Stars (SPECULOOS)",
     "agency": "ESO / University of Liège",
     "status": "Active",
     "category": "Ground Discovery",
@@ -138,7 +138,7 @@
   },
   {
     "id": "trappist",
-    "name": "TRAPPIST",
+    "name": "Transiting Planets and Planetesimals Small Telescope (TRAPPIST)",
     "agency": "University of Liège",
     "status": "Active",
     "category": "Ground Discovery",
@@ -172,7 +172,7 @@
   },
   {
     "id": "roman",
-    "name": "Nancy Grace Roman Space Telescope",
+    "name": "Nancy Grace Roman Space Telescope (RST)",
     "agency": "NASA",
     "status": "Upcoming",
     "category": "Discovery",
@@ -189,7 +189,7 @@
   },
   {
     "id": "plato",
-    "name": "PLATO",
+    "name": "Planetary Transits and Oscillations (PLATO)",
     "agency": "ESA",
     "status": "Upcoming",
     "category": "Discovery",
@@ -206,7 +206,7 @@
   },
   {
     "id": "ariel",
-    "name": "ARIEL",
+    "name": "Atmospheric Remote-sensing Infrared Exoplanet Large-survey (ARIEL)",
     "agency": "ESA",
     "status": "Upcoming",
     "category": "Characterization",
@@ -291,7 +291,7 @@
   },
   {
     "id": "corot",
-    "name": "CoRoT",
+    "name": "Convection, Rotation and Planetary Transits (CoRoT)",
     "agency": "CNES / ESA",
     "status": "Retired",
     "category": "Discovery",
