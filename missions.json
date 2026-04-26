@@ -1,7 +1,6 @@
-
 [
   {
-    //////////////////////ACTIVE
+    ///////////////////////////////ACTIVE
     "id": "jwst",
     "name": "James Webb Space Telescope",
     "agency": "NASA / ESA / CSA",
@@ -12,11 +11,11 @@
     "missionEnd": null,
     "location": "Sun–Earth L2",
     "description": "Infrared space telescope focused on exoplanet atmospheres, galaxy formation, and deep universe observations.",
-    "epwRelevance": "High — atmospheric characterization of transiting exoplanets",
+    "epwRelevance": "Very High — atmospheric characterization of transiting exoplanets",
     "image": "./images/jwst.png",
     "trackerLinks": [
       { "label": "Space Telescope Live", "url": "https://spacetelescopelive.org/webb" },
-      { "label": "JWST Tracker (TheSkyLive)", "url": "https://theskylive.com/jwst-tracker" }
+      { "label": "JWST Tracker", "url": "https://theskylive.com/jwst-tracker" }
     ]
   },
   {
@@ -29,28 +28,11 @@
     "missionStart": "1990-05-20",
     "missionEnd": null,
     "location": "Low Earth Orbit",
-    "description": "Optical and ultraviolet space telescope providing long-term observations of exoplanets and galaxies.",
-    "epwRelevance": "Medium — atmospheric and stellar observations",
+    "description": "Optical and ultraviolet space telescope providing long-term observations of stars, galaxies, and exoplanet atmospheres.",
+    "epwRelevance": "High — legacy and ongoing transit spectroscopy",
     "image": "./images/hubble.png",
     "trackerLinks": [
       { "label": "Space Telescope Live", "url": "https://spacetelescopelive.org/hubble" }
-    ]
-  },
-  {
-    "id": "gaia",
-    "name": "Gaia",
-    "agency": "ESA",
-    "status": "Active",
-    "category": "Stellar / Astrometry",
-    "launchDate": "2013-12-19",
-    "missionStart": "2014-07-25",
-    "missionEnd": null,
-    "location": "Sun–Earth L2",
-    "description": "Precision astrometry mission mapping over a billion stars in the Milky Way.",
-    "epwRelevance": "High — stellar parameters, companion detection, and transit validation",
-    "image": "./images/gaia.png",
-    "trackerLinks": [
-      { "label": "ESA Gaia Page", "url": "https://www.cosmos.esa.int/gaia" }
     ]
   },
   {
@@ -63,7 +45,7 @@
     "missionStart": "2018-07-25",
     "missionEnd": null,
     "location": "Highly elliptical Earth orbit",
-    "description": "All-sky survey mission discovering transiting exoplanets.",
+    "description": "All-sky survey mission discovering transiting exoplanets around bright nearby stars.",
     "epwRelevance": "Very High — primary source of EPW targets",
     "image": "./images/tess.png",
     "trackerLinks": [
@@ -79,11 +61,13 @@
     "launchDate": "2019-12-18",
     "missionStart": "2020-04-01",
     "missionEnd": null,
-    "location": "Sun-synchronous orbit",
-    "description": "High-precision photometry for known exoplanets.",
-    "epwRelevance": "High — precise transit follow-up",
+    "location": "Sun-synchronous low Earth orbit",
+    "description": "High-precision photometry mission focused on known exoplanets.",
+    "epwRelevance": "High — precise transit follow-up and planet radius refinement",
     "image": "./images/cheops.png",
-    "trackerLinks": []
+    "trackerLinks": [
+      { "label": "ESA CHEOPS Page", "url": "https://www.esa.int/Science_Exploration/Space_Science/Cheops" }
+    ]
   },
   {
     "id": "pandora",
@@ -92,18 +76,86 @@
     "status": "Active",
     "category": "Characterization",
     "launchDate": "2026-01-11",
-    "missionStart": "2026-02-01",
+    "missionStart": "2026-01-12",
     "missionEnd": null,
     "location": "Low Earth Orbit",
-    "description": "Studies exoplanet atmospheres while disentangling stellar variability.",
-    "epwRelevance": "High — improves transit signal accuracy",
+    "description": "Small space telescope studying exoplanet atmospheres while separating planetary signals from stellar variability.",
+    "epwRelevance": "Very High — directly connected to transit timing, stellar variability, and follow-up observations",
     "image": "./images/pandora.png",
     "trackerLinks": [
-      { "label": "NASA Mission Page", "url": "https://science.nasa.gov/mission/pandora/" }
+      { "label": "NASA Pandora Page", "url": "https://science.nasa.gov/mission/pandora/" }
     ]
   },
   {
-    //////////////////////UPCOMING
+    "id": "lcogt",
+    "name": "Las Cumbres Observatory Global Telescope Network",
+    "agency": "LCO",
+    "status": "Active",
+    "category": "Ground Follow-up",
+    "launchDate": null,
+    "missionStart": "2014-01-01",
+    "missionEnd": null,
+    "location": "Global ground-based network",
+    "description": "A worldwide network of robotic telescopes used for time-domain astronomy and exoplanet follow-up.",
+    "epwRelevance": "Very High — ground-based transit follow-up similar to EPW observing goals",
+    "image": "./images/lcogt.png",
+    "trackerLinks": [
+      { "label": "LCO Observatory", "url": "https://lco.global/" }
+    ]
+  },
+  {
+    "id": "speculoos",
+    "name": "SPECULOOS",
+    "agency": "ESO / University of Liège",
+    "status": "Active",
+    "category": "Ground Discovery",
+    "launchDate": null,
+    "missionStart": "2019-01-01",
+    "missionEnd": null,
+    "location": "Chile / Canary Islands",
+    "description": "Ground-based telescope network searching for transiting planets around ultra-cool dwarf stars.",
+    "epwRelevance": "High — discovers and follows small transiting planets around nearby cool stars",
+    "image": "./images/speculoos.png",
+    "trackerLinks": [
+      { "label": "SPECULOOS Project", "url": "https://www.speculoos.uliege.be/" }
+    ]
+  },
+  {
+    "id": "trappist",
+    "name": "TRAPPIST",
+    "agency": "University of Liège",
+    "status": "Active",
+    "category": "Ground Discovery",
+    "launchDate": null,
+    "missionStart": "2010-01-01",
+    "missionEnd": null,
+    "location": "Chile / Morocco",
+    "description": "Small robotic telescopes known for exoplanet transit discoveries and follow-up of small planets.",
+    "epwRelevance": "High — iconic ground-based transit discovery and follow-up system",
+    "image": "./images/trappist.png",
+    "trackerLinks": [
+      { "label": "TRAPPIST Project", "url": "https://www.trappist.uliege.be/" }
+    ]
+  },
+  {
+    "id": "ngts",
+    "name": "Next Generation Transit Survey (NGTS)",
+    "agency": "University of Warwick / Partners",
+    "status": "Active",
+    "category": "Ground Discovery",
+    "launchDate": null,
+    "missionStart": "2015-01-01",
+    "missionEnd": null,
+    "location": "Paranal Observatory, Chile",
+    "description": "Array of robotic telescopes designed to detect transiting exoplanets around bright stars.",
+    "epwRelevance": "High — ground-based transit discovery and follow-up pipeline",
+    "image": "./images/ngts.png",
+    "trackerLinks": [
+      { "label": "NGTS Project", "url": "https://ngtransits.org/" }
+    ]
+  },
+  {
+    ///////////////////////////////UPCOMING
     "id": "roman",
     "name": "Nancy Grace Roman Space Telescope",
     "agency": "NASA",
@@ -113,8 +165,8 @@
     "missionStart": null,
     "missionEnd": null,
     "location": "Sun–Earth L2",
-    "description": "Wide-field infrared telescope for microlensing and direct imaging of exoplanets.",
-    "epwRelevance": "High — future large-scale discovery mission",
+    "description": "Wide-field infrared telescope for microlensing, dark energy studies, and direct imaging technology demonstrations.",
+    "epwRelevance": "High — future exoplanet microlensing discoveries and direct imaging demonstrations",
     "image": "./images/roman.png",
     "trackerLinks": [
       { "label": "NASA Roman Page", "url": "https://roman.gsfc.nasa.gov/" }
@@ -126,12 +178,12 @@
     "agency": "ESA",
     "status": "Upcoming",
     "category": "Discovery",
-    "launchDate": "2026-01-01",
+    "launchDate": "2026-12-01",
     "missionStart": null,
     "missionEnd": null,
     "location": "Sun–Earth L2",
-    "description": "Search for Earth-like exoplanets and characterize host stars.",
-    "epwRelevance": "High — long-period exoplanets",
+    "description": "Mission designed to find and characterize Earth-like exoplanets around bright stars.",
+    "epwRelevance": "Very High — future source of long-period transiting exoplanets",
     "image": "./images/plato.png",
     "trackerLinks": [
       { "label": "ESA PLATO Page", "url": "https://www.esa.int/Science_Exploration/Space_Science/PLATO" }
@@ -147,15 +199,66 @@
     "missionStart": null,
     "missionEnd": null,
     "location": "Sun–Earth L2",
-    "description": "Dedicated mission to study exoplanet atmospheres.",
-    "epwRelevance": "Very High — atmospheric survey mission",
+    "description": "Dedicated space telescope mission to study the atmospheres of a large sample of exoplanets.",
+    "epwRelevance": "Very High — atmospheric survey mission for known transiting exoplanets",
     "image": "./images/ariel.png",
     "trackerLinks": [
       { "label": "ESA ARIEL Page", "url": "https://www.esa.int/Science_Exploration/Space_Science/Ariel" }
     ]
   },
   {
-    //////////////////////RETIRED
+    "id": "spherex",
+    "name": "SPHEREx",
+    "agency": "NASA",
+    "status": "Upcoming",
+    "category": "Survey",
+    "launchDate": null,
+    "missionStart": null,
+    "missionEnd": null,
+    "location": "Low Earth Orbit",
+    "description": "All-sky near-infrared spectral survey mission mapping hundreds of millions of galaxies and stars.",
+    "epwRelevance": "Medium — useful stellar and infrared survey context for exoplanet host environments",
+    "image": "./images/spherex.png",
+    "trackerLinks": [
+      { "label": "NASA SPHEREx Page", "url": "https://science.nasa.gov/mission/spherex/" }
+    ]
+  },
+  {
+    "id": "elt",
+    "name": "Extremely Large Telescope (ELT)",
+    "agency": "ESO",
+    "status": "Upcoming",
+    "category": "Ground Characterization",
+    "launchDate": null,
+    "missionStart": null,
+    "missionEnd": null,
+    "location": "Cerro Armazones, Chile",
+    "description": "Future 39-meter class ground-based telescope designed for high-resolution astronomy, including exoplanet imaging and atmospheric studies.",
+    "epwRelevance": "High — future high-resolution exoplanet characterization",
+    "image": "./images/elt.png",
+    "trackerLinks": [
+      { "label": "ESO ELT Page", "url": "https://elt.eso.org/" }
+    ]
+  },
+  {
+    ///////////////////////////////RETIRED
+    "id": "gaia",
+    "name": "Gaia",
+    "agency": "ESA",
+    "status": "Retired",
+    "category": "Astrometry",
+    "launchDate": "2013-12-19",
+    "missionStart": "2014-07-25",
+    "missionEnd": "2025-01-15",
+    "location": "Sun–Earth L2",
+    "description": "Precision astrometry mission that mapped positions, distances, and motions of stars across the Milky Way.",
+    "epwRelevance": "High — stellar parameters, companion checks, distances, and transit validation",
+    "image": "./images/gaia.png",
+    "trackerLinks": [
+      { "label": "ESA Gaia Page", "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia" }
+    ]
+  },
+  {
     "id": "kepler",
     "name": "Kepler Space Telescope",
     "agency": "NASA",
@@ -164,11 +267,13 @@
     "launchDate": "2009-03-07",
     "missionStart": "2009-05-12",
     "missionEnd": "2018-10-30",
-    "location": "Heliocentric orbit",
-    "description": "Revolutionized exoplanet discovery with thousands of detections.",
-    "epwRelevance": "Very High — foundational exoplanet catalog",
+    "location": "Earth-trailing heliocentric orbit",
+    "description": "Revolutionized exoplanet discovery with thousands of detected and confirmed planet candidates.",
+    "epwRelevance": "Very High — foundational exoplanet catalog and transit discovery mission",
     "image": "./images/kepler.png",
-    "trackerLinks": []
+    "trackerLinks": [
+      { "label": "NASA Kepler Page", "url": "https://science.nasa.gov/mission/kepler/" }
+    ]
   },
   {
     "id": "spitzer",
@@ -179,10 +284,29 @@
     "launchDate": "2003-08-25",
     "missionStart": "2003-12-01",
     "missionEnd": "2020-01-30",
-    "location": "Heliocentric orbit",
-    "description": "Infrared telescope used for early exoplanet atmosphere studies.",
-    "epwRelevance": "High — legacy atmospheric data",
+    "location": "Earth-trailing heliocentric orbit",
+    "description": "Infrared space telescope used for exoplanet atmosphere studies and precision transit observations.",
+    "epwRelevance": "High — legacy infrared transit and atmospheric observations",
     "image": "./images/spitzer.png",
-    "trackerLinks": []
+    "trackerLinks": [
+      { "label": "NASA Spitzer Page", "url": "https://science.nasa.gov/mission/spitzer/" }
+    ]
+  },
+  {
+    "id": "corot",
+    "name": "CoRoT",
+    "agency": "CNES / ESA",
+    "status": "Retired",
+    "category": "Discovery",
+    "launchDate": "2006-12-27",
+    "missionStart": "2007-02-02",
+    "missionEnd": "2012-11-02",
+    "location": "Low Earth Orbit",
+    "description": "Early space mission designed for stellar seismology and transiting exoplanet discovery.",
+    "epwRelevance": "Medium — important early space-based transit discovery mission",
+    "image": "./images/corot.png",
+    "trackerLinks": [
+      { "label": "ESA CoRoT Page", "url": "https://www.esa.int/Science_Exploration/Space_Science/COROT_overview" }
+    ]
   }
 ]
