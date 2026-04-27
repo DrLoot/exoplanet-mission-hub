@@ -239,6 +239,57 @@
     ]
   },
   {
+  "id": "hwo",
+  "name": "Habitable Worlds Observatory (HWO)",
+  "agency": "NASA",
+  "status": "Upcoming",
+  "category": "Ultimate Characterization",
+  "launchDate": "~2040s",
+  "missionStart": "~2040s",
+  "missionEnd": null,
+  "location": "Sun–Earth L2",
+  "description": "Next-generation flagship space telescope designed to directly image Earth-like exoplanets and search for biosignatures such as oxygen, water vapor, and methane.",
+  "epwRelevance": "Critical — depends on precise orbital predictions and transit timing for direct imaging targets",
+  "image": "./images/hwo.png",
+  "trackerLinks": [
+    { "label": "NASA HWO Overview", "url": "https://science.nasa.gov/astrophysics/future-missions/habitable-worlds-observatory/" }
+  ]
+},
+{
+  "id": "tmt",
+  "name": "Thirty Meter Telescope (TMT)",
+  "agency": "TMT International Observatory",
+  "status": "Upcoming",
+  "category": "Ground Characterization",
+  "launchDate": "N/A",
+  "missionStart": "TBD",
+  "missionEnd": null,
+  "location": "Mauna Kea, Hawaii (primary) / La Palma, Spain (alternate)",
+  "description": "Planned 30-meter class ground-based telescope designed for high-resolution imaging and spectroscopy of exoplanets, galaxies, and the early universe.",
+  "epwRelevance": "High — requires precise transit timing for scheduling high-value observations",
+  "image": "./images/tmt.png",
+  "trackerLinks": [
+    { "label": "TMT Official Site", "url": "https://www.tmt.org/" }
+  ]
+},
+{
+  "id": "rubin",
+  "name": "Vera C. Rubin Observatory",
+  "agency": "NSF / DOE",
+  "status": "Upcoming",
+  "category": "Survey",
+  "launchDate": "N/A",
+  "missionStart": "~2026",
+  "missionEnd": "~2036",
+  "location": "Cerro Pachón, Chile",
+  "description": "Wide-field survey telescope conducting the Legacy Survey of Space and Time (LSST), scanning the entire southern sky repeatedly to study dark energy, dark matter, and transient events.",
+  "epwRelevance": "Medium — discovery of variable stars and potential exoplanet candidates, but not optimized for transit timing precision",
+  "image": "./images/rubin.png",
+  "trackerLinks": [
+    { "label": "Rubin Observatory", "url": "https://rubinobservatory.org/" }
+  ]
+},
+  {
     "id": "gaia",
     "name": "Gaia",
     "agency": "ESA",
