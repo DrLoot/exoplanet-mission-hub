@@ -252,7 +252,7 @@
   "epwRelevance": "Critical — depends on precise orbital predictions and transit timing for direct imaging targets",
   "image": "./images/hwo.png",
   "trackerLinks": [
-    { "label": "NASA HWO Overview", "url": "https://science.nasa.gov/astrophysics/future-missions/habitable-worlds-observatory/" }
+    { "label": "NASA HWO Overview", "url": "https://science.nasa.gov/astrophysics/programs/habitable-worlds-observatory/" }
   ]
 },
 {
